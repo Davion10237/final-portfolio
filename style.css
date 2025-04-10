@@ -68,3 +68,29 @@ button:hover {
     background: #5910E5;
     color: white;
 }
+.portfolio-item {
+    background: #222;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.portfolio-item h3 {
+    color: #C3FF83;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.portfolio-item p {
+    color: white;
+    font-size: 1.1em;
+}
