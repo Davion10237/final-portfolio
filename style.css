@@ -120,14 +120,14 @@ button:hover {
   max-width: 350px;
 }
 #contact {
-  background-color: #e0f0ff; /* Light blue background */
-  color: #003366;            /* Deep blue text */
+  background-color: #000000; /* Black background */
+  color: #C3FF83;            /* Lime green header/text for contrast */
   padding: 60px 20px;
   text-align: center;
 }
 
 #contact h2 {
-  color: #003366;
+  color: #5910E5; /* Purple header */
   font-size: 2em;
   margin-bottom: 20px;
 }
@@ -135,23 +135,25 @@ button:hover {
 form {
   max-width: 500px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #1a1a1a; /* Dark grey/black form box */
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(89, 16, 229, 0.3);
 }
 
 input, textarea {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
-  border: 1px solid #ccc;
+  background-color: #000;
+  border: 1px solid #5910E5;
+  color: #ffffff;
   border-radius: 5px;
 }
 
 button {
-  background-color: #003366;
-  color: white;
+  background-color: #5910E5;
+  color: #fff;
   padding: 12px;
   border: none;
   width: 100%;
@@ -161,5 +163,6 @@ button {
 }
 
 button:hover {
-  background-color: #0055cc;
+  background-color: #C3FF83;
+  color: #000;
 }
