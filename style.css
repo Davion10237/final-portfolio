@@ -94,3 +94,6 @@ button:hover {
     color: white;
     font-size: 1.1em;
 }
+html {
+  scroll-behavior: smooth;
+}
