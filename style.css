@@ -166,3 +166,30 @@ button:hover {
   background-color: #C3FF83;
   color: #000;
 }
+nav {
+  background-color: #000;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #C3FF83;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #000;
+  color: #C3FF83;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
