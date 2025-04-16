@@ -97,3 +97,14 @@ button:hover {
 html {
   scroll-behavior: smooth;
 }
+button:hover {
+  background: #5910E5;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(195, 255, 131, 0.3);
+}
