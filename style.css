@@ -108,3 +108,14 @@ button:hover {
   transition: transform 0.3s ease;
   box-shadow: 0 0 15px rgba(195, 255, 131, 0.3);
 }
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+  flex: 1 1 300px;
+  max-width: 350px;
+}
